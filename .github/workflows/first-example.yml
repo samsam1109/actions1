@@ -1,4 +1,4 @@
-name: Myfirst Workflow in GIT HUB
+name: Myfirst Workflow in GIT HUB 
 
 on: push
 
