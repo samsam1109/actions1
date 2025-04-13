@@ -10,5 +10,7 @@ jobs:
        uses: actions/checkout@v4
 
      - name: Exec shell script
-       run: ./myscript.sh
+       run: |
+          chmod +x myscript.sh   
+          ./myscript.sh
 
