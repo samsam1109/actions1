@@ -1,0 +1,17 @@
+name: Multiline Command Execution
+
+on: push
+
+jobs:
+    multiline command:
+        runs_on: ubuntu-latest
+        steps:
+        - name: Code Checkout
+          uses: actions/checkout@v4
+
+        - name: List files and ReadMe file 
+          run: |
+                echo "Multiline Command Execution"
+                ls -alrt
+                cat README.md
+                  
