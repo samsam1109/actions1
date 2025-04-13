@@ -10,7 +10,9 @@ jobs:
        uses: actions/checkout@v4
 
      - name: List files
-       run: ls -alrt
+       run: |
+         ls -alrt
+         ls -alrt .github/workflows
 
      - name: Exec shell script
        shell: bash
