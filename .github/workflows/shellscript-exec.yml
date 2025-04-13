@@ -9,6 +9,9 @@ jobs:
      - name: Checkout
        uses: actions/checkout@v4
 
+     - name: List files
+       run: ls -alrt
+
      - name: Exec shell script
        run: |
           chmod +x myscript.sh   
