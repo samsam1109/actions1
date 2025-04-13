@@ -4,7 +4,7 @@ on: push
 
 jobs:
     multiline command:
-        runs_on: ubuntu-latest
+        runs-on: ubuntu-latest
         steps:
         - name: Code Checkout
           uses: actions/checkout@v4
@@ -14,4 +14,3 @@ jobs:
                 echo "Multiline Command Execution"
                 ls -alrt
                 cat README.md
-                  
