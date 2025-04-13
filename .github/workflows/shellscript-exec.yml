@@ -13,6 +13,7 @@ jobs:
        run: ls -alrt
 
      - name: Exec shell script
+       shell: bash
        run: |
           chmod +x myscript.sh   
           ./myscript.sh
