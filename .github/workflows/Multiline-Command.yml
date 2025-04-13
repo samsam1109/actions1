@@ -3,7 +3,7 @@ name: Multiline Command Execution
 on: push
 
 jobs:
-    multiline command:
+    multiline-command:
         runs-on: ubuntu-latest
         steps:
         - name: Code Checkout
