@@ -13,7 +13,7 @@ jobs:
                    run: |
                          echo "Shell script execution"
                          sudo apt-get install cowsay -y
-                         cowsay -f dog " I am a dog and I shall bark you" >>dog.txt
-                         grep -i "dog" dog.txt      
-                         cat dog.txt
+                         cowsay -f dragon " I am a dragon and errr" >>dog.txt
+                         grep -i "dragon" dragon.txt      
+                         cat dragon.txt
                          ls -ltra
