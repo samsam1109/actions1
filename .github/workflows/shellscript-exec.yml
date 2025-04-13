@@ -1,0 +1,19 @@
+name: shell script execution
+
+on: push
+
+jobs:
+     shell-script-execution:
+                 runs-on: ubuntu-latest
+                 steps:
+                 - name: Checkout
+                   uses: actions/checkout@v4
+
+                 - name: 
+                   run: |
+                         echo "Shell script execution"
+                         sudo apt-get install cowsay -y
+                         cowsay -f dog " I am a dog and I shall bark you" >>dog.txt
+                         grep -i "dog" dog.txt      
+                         cat dog.txt
+                         ls -ltra
