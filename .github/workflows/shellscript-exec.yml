@@ -18,6 +18,6 @@ jobs:
      - name: Exec shell script
        shell: bash
        run: |
-          chmod +x .github/workflows/myscript.sh   
-          .github/workflows/myscript.sh
+          chmod +x ./ascii-script.sh   
+          ./ascii-script.sh
 
